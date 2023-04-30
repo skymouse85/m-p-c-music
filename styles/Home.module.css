@@ -7,6 +7,23 @@
   min-height: 100vh;
 }
 
+.header h1 {
+  
+  font-family: 'Roboto Mono', monospace;
+  font-size: 70px;
+  
+  font-weight: 900;
+  
+  
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
 .description {
   display: inherit;
   justify-content: inherit;

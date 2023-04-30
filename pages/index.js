@@ -13,7 +13,7 @@ export default function Home() {
         <title>Mark Pascucci-Clifford Music</title>
         <meta name="description" content="Mark Pascucci-Clifford Music.com" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon"type="image/ico" href="/blackVibes.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
