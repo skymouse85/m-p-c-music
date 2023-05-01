@@ -7,17 +7,51 @@
   min-height: 100vh;
 }
 
+
+/* header styles */
 .header h1 {
   
   font-family: 'Roboto Mono', monospace;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 900;
+  margin-left: 3rem;
+  
+}
+
+.header p {
+    font-family: 'raleway', sans-serif;
+    font-size: 1.5rem;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.bv-logo {
+  display: flex;
+  justify-content: left;
+  padding: 3rem;
+  margin: 3rem;
+}
+
+/* footer styles */
+
+.footer {
+  margin: 3rem;
+  padding-bottom: .5  rem;
+  display: flex;
+  /* justify-content:center; */
+  align-items: center;
+  color: var(--accent-secondary);
+  border-top: thick double var(--accent-secondary) ;
+
+}
+
+.footerIcon {
+  padding: .9rem; 
+  margin: .9rem;
 }
 
 .description {
@@ -116,10 +150,27 @@
   filter: blur(45px);
   transform: translateZ(0);
 }
-
+.credit {
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size: .7rem;
+}
 .logo {
   position: relative;
 }
+
+.image {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {

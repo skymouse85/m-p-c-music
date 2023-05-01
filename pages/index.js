@@ -1,8 +1,9 @@
-import Head from 'next/head'
 import Header from '@/components/Header'
-import Image from 'next/image'
+import Footer from '@/components/Footer'
+import styles from '@/styles/Home.module.css'
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'                 
+import Head from 'next/head'
+import Image from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,26 +17,30 @@ export default function Home() {
         <link rel="icon"type="image/ico" href="/blackVibes.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
          
           <div>
            <Header/>
-            
           </div>
-        </div>
+
+
+
 
         <div className={styles.center}>
           <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
+            className={styles.image}
+            src="/images/colorField.jpg"
+            alt=""
+            width={1000}
+            height={668}
+  
           />
+
         </div>
 
-        <div className={styles.grid}>
+     
+          
+
+        {/* <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
@@ -92,7 +97,9 @@ export default function Home() {
               with&nbsp;Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
+
+        <Footer/>
       </main>
     </>
   )
