@@ -92,7 +92,7 @@ export default function Footer() {
             {/* <!-- credits and © --> */}
            <div className={styles.credit}>
             <p>All rights reserved. Mark Pascucci-Clifford ©2023</p>
-            <p>Featured Photography: Lenny Gonzalez</p>
+            <p>Photography: Lenny Gonzalez</p>
            </div>
         </>
     )

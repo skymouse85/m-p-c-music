@@ -9,7 +9,7 @@ export default function Header() {
         <>
         <div className={styles.header}>
             <Link href="/">
-                <Image 
+                <Image  
                 className='bv-logo'
                 src="/blackVibes.svg" 
                 alt='logo'

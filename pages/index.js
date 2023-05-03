@@ -27,11 +27,13 @@ export default function Home() {
 
         <div className={styles.center}>
           <Image
-            className={styles.image}
+            // className={styles.imageBorder}
             src="/images/colorField.jpg"
             alt=""
-            width={1000}
-            height={668}
+            width={900}
+            height={600.6}
+            
+            
   
           />
 
