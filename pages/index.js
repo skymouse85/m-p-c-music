@@ -4,6 +4,8 @@ import styles from '@/styles/Home.module.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import Image from 'next/image'
+import Navbar from '@/components/Navbar'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,8 +23,10 @@ export default function Home() {
           <div>
            <Header/>
           </div>
-
-
+        {/* <div>
+          <Navbar />
+        </div> */}
+      
 
 
         <div className={styles.center}>
@@ -32,14 +36,19 @@ export default function Home() {
             alt=""
             width={900}
             height={600.6}
-            
-            
-  
           />
 
         </div>
 
-     
+        <div >
+            <Link className={styles.nav} href="/bio">bio</Link>
+        </div>
+        <div >
+            <Link className={styles.nav} href="/music">music</Link>
+        </div>
+        <div>
+            <Link className={styles.nav} href="/performances">shows</Link>
+        </div>
           
 
         {/* <div className={styles.grid}>

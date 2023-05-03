@@ -19,9 +19,9 @@ export default function Navbar() {
         <header>
             <nav className={`nav`}>
                 <Link href={"/"}>
-                    <a>
+                    
                         <h1 className="logo">M-P-C music</h1>
-                    </a>
+                    
                 </Link>
                 <div 
                     onClick={() => setNavActive(!navActive)}

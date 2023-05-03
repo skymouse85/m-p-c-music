@@ -18,6 +18,7 @@ export default function Header() {
                 />
             </Link>
             <h1 >Mark Pascucci-Clifford</h1>
+           
         </div>
         <div className={styles.header}>
             <p>Vibraphonist • Composer • Programmer</p>
