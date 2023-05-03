@@ -7,7 +7,9 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 
+
 const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
   return (
@@ -18,16 +20,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon"type="image/ico" href="/blackVibes.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
-         
-          <div>
+          <div >
            <Header/>
           </div>
-        {/* <div>
-          <Navbar />
-        </div> */}
-      
-
+      <main className={`${styles.main} ${inter.className}`}>
+         
 
         <div className={styles.center}>
           <Image
@@ -37,7 +34,6 @@ export default function Home() {
             width={900}
             height={600.6}
           />
-
         </div>
 
         <div >

@@ -8,6 +8,8 @@
 }
 
 
+
+
 /** header styles */
 .header h1 {
   
@@ -28,13 +30,29 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 3rem;
+  margin-top:1rem
 }
 
-.bv-logo {
+.header_list {
+  font-family: 'Roboto-Mono', monospace;
+  padding-left: 5rem;
+}
+
+.bv_logo {
   display: flex;
   justify-content: left;
-  padding: 3rem;
-  margin: 3rem;
+  align-items: center;
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+  width: 80px;
+  height: 80px;
+}
+
+.sm_header div{
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: solid .5px var(--accent-secondary)
 }
 
 /** footer styles */
@@ -63,7 +81,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .imageBorder {
@@ -78,13 +96,15 @@
   border-radius: 5px;
 }
 
+
 /** Nav styles  */
 
 .nav{
   display: flex;
   padding: .5rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  /* padding: 2rem; */
   /* background-color: #f1f1f1; */
 }
 .nav__menu-bar{
@@ -93,7 +113,7 @@
   row-gap: 6px;
   cursor: pointer;
 }
-.nav__menu-bar div{
+.nav__menu_bar div{
   width: 40px;
   height: 4px;
   background-color: black;
