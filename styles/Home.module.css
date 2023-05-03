@@ -55,6 +55,8 @@
   border-bottom: solid .5px var(--accent-secondary)
 }
 
+/*! use min height to give comfy space for section to breathe and become scrolly */
+
 /** footer styles */
 
 .footer {
