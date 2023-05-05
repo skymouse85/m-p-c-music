@@ -4,6 +4,13 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
+const raleway = Raleway({
+    subsets: ["latin"],
+    weight: ['200', '300', '400'], 
+    variable: "--font-raleway"
+})
+
+
 // TODO add low impact site list on the left side
 
 export default function Header() {
@@ -29,7 +36,7 @@ export default function Header() {
             </ul>
            
         </div>
-        <div className={styles.header}>
+        <div className={`${styles.header} ${raleway.variable}`}>
             <p>Vibraphonist • Composer • Programmer</p>
         </div>
         </>

@@ -8,6 +8,30 @@
 }
 
 
+/* *Crystal styles */
+
+.crystal {
+  padding: 3rem;
+  margin: 3rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crystal h1  {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.crystal p {
+  font-family: var(--font-montserrat);
+  font-weight: '300';
+  font-size: 30px;
+  padding: 1rem
+}
+
+
 
 
 /** header styles */
@@ -21,8 +45,8 @@
 }
 
 .header p {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+    font-family: var(--font-raleway);
+    font-weight: '300';
     font-size: 25px;
 }
 
