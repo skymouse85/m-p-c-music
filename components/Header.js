@@ -1,21 +1,18 @@
-import { Raleway } from "next/font/google";
 import styles from '@/styles/Home.module.css'   
 import Link from 'next/link'
 import Image from 'next/image'
+import Navbar from "./Navbar";
+import {dropdown} from './Dropdown'
+import { neueMachina, raleway, robotoMono, hankenGrotesk, montserrat } from "@/styles/fonts";
 
 
-const raleway = Raleway({
-    subsets: ["latin"],
-    weight: ['200', '300', '400'], 
-    variable: "--font-raleway"
-})
 
 
 // TODO add low impact site list on the left side
 
 export default function Header() {
     return (
-        <>
+        <header>
         <div className={styles.header}>
             <Link href="/">
                 <Image  
@@ -26,7 +23,13 @@ export default function Header() {
                 height={80}
                 />
             </Link>
-            <h1 >Mark Pascucci-Clifford</h1>
+            <h1>Mark Pascucci-Clifford</h1>
+            {/* <Navbar/>    */}
+            {/* <button
+               type="button" 
+               aria-haspopup="menu"
+               aria-expanded={dropdown ? "true" : "false"}
+               onClick={() => setDropdown((prev) => !prev)}>
             <ul className={styles.header_list}>
                 <li>about</li>
                 <li>music</li>
@@ -34,11 +37,13 @@ export default function Header() {
                 <li>projects</li>
                 <li>contact</li>
             </ul>
+            </button> */}
            
         </div>
-        <div className={`${styles.header} ${raleway.variable}`}>
-            <p>Vibraphonist • Composer • Programmer</p>
+        <div className={styles.header} >
+            <p style={hankenGrotesk.style}>Vibraphonist • Composer • Programmer</p>
         </div>
-        </>
+
+        </header>
     )
 }

@@ -1,9 +1,15 @@
-
+import SmHeader from "@/components/SmHeader"
+import styles from "@/styles/Home.module.css"
 
 export default function Music() {
     return (
+        <>
+         <div className={styles.sm_header}>
+                <SmHeader />  
+            </div>
         <div>
             <p>this is the music page of m-p-c</p>
         </div>
+        </>
     )
 }

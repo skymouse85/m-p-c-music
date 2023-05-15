@@ -1,14 +1,15 @@
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import styles from '@/styles/Home.module.css'
-import { Inter, Montserrat, Roboto_Mono } from 'next/font/google'
+import { neueMachina, raleway, robotoMono, hankenGrotesk, montserrat } from "@/styles/fonts";
+
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
 
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
 
 
 
@@ -24,7 +25,7 @@ export default function Home() {
           <div >
            <Header/>
           </div>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className={`${styles.main} ${hankenGrotesk.className}`}>
          
 
         <div className={styles.center}>
@@ -37,7 +38,7 @@ export default function Home() {
           />
         </div>
 
-        <div >
+        {/* <div >
             <Link className={styles.nav} href="/bio">bio</Link>
         </div>
         <div >
@@ -45,67 +46,28 @@ export default function Home() {
         </div>
         <div>
             <Link className={styles.nav} href="/performances">shows</Link>
-        </div>
+        </div> */}
           
 
-        {/* <div className={styles.grid}>
-          <a
+        <div  className={styles.indexBio}>
+       
+              <p>
+              <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA.
+            </p>
+            <br He is active in a wide variety of musical scenes in the bay and around the world />
+            <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
+             
             <h2>
-              Docs <span>-&gt;</span>
+              Read full bio<span>-&gt;</span>
             </h2>
-            <p>
-              Find in-depth information about Next.js features and&nbsp;API.
-            </p>
+            
           </a>
-
-          <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Learn <span>-&gt;</span>
-            </h2>
-            <p>
-              Learn about Next.js in an interactive course with&nbsp;quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Templates <span>-&gt;</span>
-            </h2>
-            <p>
-              Discover and deploy boilerplate example Next.js&nbsp;projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Deploy <span>-&gt;</span>
-            </h2>
-            <p>
-              Instantly deploy your Next.js site to a shareable URL
-              with&nbsp;Vercel.
-            </p>
-          </a>
-        </div> */}
+        </div>
 
         <Footer/>
       </main>
