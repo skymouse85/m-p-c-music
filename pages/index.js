@@ -55,22 +55,22 @@ export default function Home() {
               <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA. He is active in many musical scenes including new music, jazz, indie rock, and avant garde
             </p>
            </div>
-            <div>
-            <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2>
-              Read full bio<span>-&gt;</span>
-            </h2>
-          </a>
-          </div>
         </div>
+          <div>
+            <Link
+              href='/bio'
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 >
+              <span>-&gt;</span> Read full bio
+              </h2>
+            </Link>
+          </div>
 
         <div className={styles.spacer}></div>
-        
+
         <div>
           <h1 style={robotoMono.style}>Music</h1>
         </div>

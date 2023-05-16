@@ -8,30 +8,26 @@
 }
 
 
-/* *Crystal styles */
 
-.crystal {
-  padding: 3rem;
-  margin: 3rem;
-  display:flex;
+
+/* * non index page */
+
+.nonIndex {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 6rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  min-height:fit-content
 }
 
-.crystal h1  {
-  font-family: var(--font-montserrat);
-  font-weight: 600;
-  margin-bottom: 3rem;
+.nonIndex p{
+  /* font-family: var(--font-hankenGrotesk); */
+  font-weight: 300;
+  font-size: 1.5rem;
 }
-.crystal p {
-  font-family: var(--font-montserrat);
-  font-weight: '300';
-  font-size: 30px;
-  padding: 1rem
-}
-
-
 
 
 /** header styles */
@@ -97,19 +93,21 @@
 }
  .pContainer {
   /* border: 2px dotted rgb(96, 139, 168); */
-  width: 700px;
+  width: 900px;
   margin: 3rem;
 
  }
 .indexBio p {
-  font-size: 50px;
+  font-size: 40px;
+  /* border: solid .5px var(--accent-primary) */
 
 }
 
 .indexBio h2 {
-  /* margin: 50px */
-  align-self:flex-end
-  
+  margin: 50px;
+  align-self:flex-end;
+  /* border: solid .5px var(--accent-primary);
+  border-radius: 25% */
   
 }
 
@@ -119,7 +117,7 @@
   margin: 3rem;
   padding-bottom: .5  rem;
   display: flex;
-  /* justify-content:center; */
+  justify-content:center;
   align-items: center;
   color: var(--accent-secondary);
   border-top: thick double var(--accent-secondary) ;
