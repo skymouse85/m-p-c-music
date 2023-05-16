@@ -50,23 +50,23 @@ export default function Home() {
           
 
         <div  className={styles.indexBio}>
-       
-              <p>
-              <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA.
+          <div className={styles.pContainer}>
+            <p>
+              <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA. He is active in many musical scenes including new music, jazz, indie rock, and avant garde
             </p>
-            <br He is active in a wide variety of musical scenes in the bay and around the world />
+           </div>
+            <div>
             <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
-             
             <h2>
               Read full bio<span>-&gt;</span>
             </h2>
-            
           </a>
+          </div>
         </div>
 
         <Footer/>
