@@ -86,11 +86,15 @@
   min-height: 300px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: right;
 
 }
 
+
+.spacer {
+  height: 300px
+}
  .pContainer {
   /* border: 2px dotted rgb(96, 139, 168); */
   width: 700px;
@@ -99,10 +103,13 @@
  }
 .indexBio p {
   font-size: 50px;
+
 }
 
 .indexBio h2 {
   /* margin: 50px */
+  align-self:flex-end
+  
   
 }
 

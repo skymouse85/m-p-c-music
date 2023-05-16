@@ -69,6 +69,12 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.spacer}></div>
+        
+        <div>
+          <h1 style={robotoMono.style}>Music</h1>
+        </div>
+
         <Footer/>
       </main>
     </>
