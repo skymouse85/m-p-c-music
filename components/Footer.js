@@ -8,8 +8,8 @@ export default function Footer() {
 
         <>
         {/* social link icons */}
-            <div className={styles.main}>
-                <div className={styles.footer}>
+            <div className={styles.footer}>
+                <div className={styles.footerIcon}>
                     <a 
                         href="https://thedirtysnacksensemble.bandcamp.com/"
                         target="_blank"
@@ -90,12 +90,11 @@ export default function Footer() {
                         />
                     </a>
                 </div>
-
-                {/* <!-- credits and © --> */}
-                <div className={styles.credit}>
-                    <p>All rights reserved. Mark Pascucci-Clifford ©2023</p>
-                    <p>Photography: Lenny Gonzalez</p>
-                </div>
+                    <div>
+                    <p style={hankenGrotesk.style}>All rights reserved. Mark Pascucci-Clifford ©2023</p>
+                    <p style={hankenGrotesk.style}>Photography: Lenny Gonzalez</p>
+                {/* <!-- credits and © --> */} 
+                    </div>
             </div>
         </>
     )

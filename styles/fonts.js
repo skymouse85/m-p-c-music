@@ -22,24 +22,5 @@ const robotoMono = Roboto_Mono({
     weight: ['300', '400', '600', '700']
 });
 
-const neueMachina = localFont({
-    src: [
-        {
-            path: './Neue Machina/NeueMachina-Light.woff2',
-            weight: '300'
-            
 
-        },
-        {
-            path: './Neue Machina/NeueMachina-Regular.woff2',
-            weight: '400'
-            
-        },
-        {
-            path: './Neue Machina/NeueMachina-Ultrabold.woff2',
-            weight: '800'
-        }
-    ]
-})
-
-export { raleway, hankenGrotesk, montserrat, robotoMono, neueMachina};
+export { raleway, hankenGrotesk, montserrat, robotoMono};

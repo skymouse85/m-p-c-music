@@ -24,20 +24,18 @@ export default function Header() {
                 />
             </Link>
             <h1>Mark Pascucci-Clifford</h1>
-            {/* <Navbar/>    */}
-            {/* <button
-               type="button" 
-               aria-haspopup="menu"
-               aria-expanded={dropdown ? "true" : "false"}
-               onClick={() => setDropdown((prev) => !prev)}>
+            
             <ul className={styles.header_list}>
-                <li>about</li>
+                <li>
+                    <Link href="/bio">about</Link>
+                    
+                </li>
                 <li>music</li>
                 <li>shows</li>
                 <li>projects</li>
                 <li>contact</li>
             </ul>
-            </button> */}
+    
            
         </div>
         <div className={styles.header} >

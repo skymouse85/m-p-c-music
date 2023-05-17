@@ -8,6 +8,16 @@
 }
 
 
+.biopic_row {
+  display: flex;
+  flex-direction: row;
+  
+  /* padding: 1rem; */
+}
+
+.biopic_text {
+  padding-right: 1rem;
+}
 
 
 /* * non index page */
@@ -114,12 +124,14 @@
 /** footer styles */
 
 .footer {
-  margin: 3rem;
-  padding-bottom: .5  rem;
+  margin: 6rem;
+  padding: 6rem;
+  /* padding-bottom: .5rem; */
   display: flex;
-  justify-content:center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: var(--accent-secondary);
+  /* color: var(--accent-secondary); */
   border-top: thick double var(--accent-secondary) ;
 
 }
@@ -127,8 +139,18 @@
 .footerIcon {
   padding: .9rem; 
   margin: .9rem;
+  display: flex;
+  flex-direction: row;
 }
 
+.footer p {
+  font-weight: 200;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding: 5px
+}
 
 /** Image styles */
 
