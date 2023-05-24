@@ -6,6 +6,7 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --main-bg-color: #f9f6e7;
+  --secondary-bg-color:#003049;
   --text-primary: #010101;
   --accent-primary: #ff5252;
   --accent-secondary: #99bbad;
@@ -62,6 +63,20 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+h1 {
+  font-family: 'robotoMono', monospace;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'interTight', sans-serif;
+  font-weight: 400;
+  font-size: 1.75rem;
+}
+
+p {
+  font-family: 'raleway', sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

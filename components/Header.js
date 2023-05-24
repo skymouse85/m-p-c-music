@@ -30,7 +30,9 @@ export default function Header() {
                     <Link href="/bio">about</Link>
                     
                 </li>
-                <li>music</li>
+                <li>
+                    <Link href='/music'>music</Link>
+                </li>
                 <li>shows</li>
                 <li>projects</li>
                 <li>contact</li>

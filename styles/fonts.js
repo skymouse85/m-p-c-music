@@ -1,4 +1,4 @@
-import { Raleway, Hanken_Grotesk, Montserrat, Roboto_Mono } from "next/font/google";
+import { Raleway, Hanken_Grotesk, Montserrat, Roboto_Mono, Inter_Tight } from "next/font/google";
 import localFont from "next/font/local";
 
 
@@ -22,5 +22,11 @@ const robotoMono = Roboto_Mono({
     weight: ['300', '400', '600', '700']
 });
 
+const interTight = Inter_Tight({
+    subsets: ['latin'],
+    weight: ['400'] 
+})
 
-export { raleway, hankenGrotesk, montserrat, robotoMono};
+
+
+export { raleway, hankenGrotesk, montserrat, robotoMono, interTight};
