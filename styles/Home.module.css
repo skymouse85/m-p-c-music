@@ -126,7 +126,7 @@
 
  }
 .indexBio p {
-  font-size: 40px;
+  font-size: 35px;
   /* border: solid .5px var(--accent-primary) */
 
 }
@@ -144,14 +144,14 @@
 .footer {
   margin: 6rem;
   padding: 6rem;
-  /* padding-bottom: .5rem; */
+  padding-bottom: .5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* color: var(--accent-secondary); */
   border-top: thick double  var(--accent-secondary);
-  min-width: 100%;
+  /* min-width: 100%; */
 
 }
 
@@ -453,10 +453,17 @@
   }
 }
 
+
+
 /* Mobile */
 @media (max-width: 700px) {
   .content {
     padding: 4rem;
+  }
+
+  .header {
+    padding: 1rem;
+    margin: 2rem;
   }
 
   .grid {
@@ -465,40 +472,6 @@
     max-width: 320px;
     text-align: center;
   }
-
-  .card {
-    padding: 1rem 2.5rem;
-  }
-
-  .card h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
-
-  .center::before {
-    transform: none;
-    height: 300px;
-  }
-
-  .description {
-    font-size: 0.8rem;
-  }
-
-  .description a {
-    padding: 1rem;
-  }
-
-  .description p,
-  .description div {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-  }
-
   .description p {
     align-items: center;
     inset: 0 0 auto;
@@ -530,11 +503,33 @@
   }
 }
 
+
+/* * Media Query sizes
+small devices (landscape phones, 567px and up)
+@media (min-width: 576px) {}
+
+Medium devices (Tablets, 768px and up)
+@media (min-width: 768px) {}
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+Extra Large devices (Large Desktops, 1200px and up)
+@media (min-width: 1200px)
+*/
+
 /* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
+@media (min-width: 701px) and (max-width: 1254px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+.header {
+  padding: 1rem;
+}
+  .h1 {
+    font-size: 3rem;
+  }
+
 }
 
 @media (prefers-color-scheme: dark) {

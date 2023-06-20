@@ -72,7 +72,7 @@ export default function Home() {
         <div className={styles.spacer}></div>
 
         <div>
-          <h1 style={robotoMono.style}>Music</h1>
+          <h2>Music</h2>
         </div>
 
         <Footer/>

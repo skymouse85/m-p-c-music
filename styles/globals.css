@@ -67,6 +67,7 @@ a {
 h1 {
   font-family: 'robotoMono', monospace;
   font-weight: 600;
+  font-size: 6rem;
 }
 
 h2 {
@@ -83,4 +84,32 @@ p {
   html {
     color-scheme: dark;
   }
+}
+
+
+
+/* * Media Query sizes
+small devices (landscape phones, 567px and up)
+@media (min-width: 576px) {}
+
+Medium devices (Tablets, 768px and up)
+@media (min-width: 768px) {}
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+Extra Large devices (Large Desktops, 1200px and up)
+@media (min-width: 1200px)
+*/
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1254px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+
+  .h1 {
+    font-size: 3rem;
+  }
+
 }
