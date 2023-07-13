@@ -8,17 +8,21 @@
 }
 
 
-.biopic_row {
+.container {
   display: flex;
-  flex-direction: row;
-  
-  /* padding: 1rem; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.biopic_row {
+  flex-direction: row-reverse;
 }
 
 .biopic_text {
+  flex: 1 1 auto;
+  max-width: calc(100% - 300px); /* Adjust the maximum width as needed */
   padding-right: 1rem;
 }
-
 
 /* * non index page */
 
@@ -126,7 +130,7 @@
 
  }
 .indexBio p {
-  font-size: 35px;
+  font-size: 25px;
   /* border: solid .5px var(--accent-primary) */
 
 }

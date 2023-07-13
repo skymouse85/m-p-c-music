@@ -7,9 +7,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import Link from 'next/link'
-
-
-// const inter = Inter({ subsets: ['latin'] });
+import BioImage from '@/components/BioImage';
 
 
 
@@ -52,7 +50,7 @@ export default function Home() {
         <div  className={styles.indexBio}>
           <div className={styles.pContainer}>
             <p>
-              <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA. He is active in many musical scenes including new music, jazz, indie rock, and avant garde
+              <strong>Mark Pascucci-Clifford</strong> is a vibraphonist, composer, educator, producer, and programmer based in Oakland, CA. Mark is active across a wide range of musical genres including new music, jazz, free improvisation, experimental, and indie rock. He is a regular performer in the bay area and abroad.
             </p>
            </div>
         </div>
