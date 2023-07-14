@@ -42,5 +42,7 @@
   max-width: calc(100% - 300px);
   padding-right: 1rem;
   font-weight: 300px;
-  margin-top: 1rem;;
+  font-size: 1.125rem;
+  line-height: 1.78;
+  margin-top: 1rem; 
 }
