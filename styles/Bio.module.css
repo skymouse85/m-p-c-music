@@ -2,11 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
+  margin: 1rem;
 }
 
 .text {
   flex: 1 1 auto;
-  max-width: calc(100% - 300px);
   padding-right: 1rem;
   font-weight: 300px;
 }
@@ -28,21 +28,34 @@
 .bioImageContainer {
   display: flex;
   align-items: flex-start;
+  float: right;
+  margin-right: 10px;
 }
 
 .bioImage {
-  width: 300px;
+  width: 400px;
   height: auto;
-  margin: 1rem;
   border-radius: 1.5%;
+  float: right;
 }
 
 .bioText {
   flex: 1 1 auto;
-  max-width: calc(100% - 300px);
   padding-right: 1rem;
   font-weight: 300px;
   font-size: 1.125rem;
   line-height: 1.78;
-  margin-top: 1rem; 
+  overflow: auto;
+  margin: 1rem;
+  /* margin-top: 1rem;  */
+}
+
+.bioText p {
+  margin-bottom: 16px;
+}
+
+.bioText::after {
+  content: "";
+  display: table;
+  clear: both;
 }
