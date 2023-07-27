@@ -37,13 +37,6 @@
   min-height:fit-content
 }
 
-.musicContent {
-  display: grid;
-  grid-template-columns: 600px 600px;
-  padding-top: 2rem;
-  text-align: left;
-}
-
 .nonIndex h1 {
   font-size: 2.75rem;
   border-bottom: 2px solid var(--secondary-bg-color);
@@ -53,7 +46,7 @@
   padding-bottom: 1rem;
 }
 
-.nonIndex p{
+.nonIndex p {
   /* font-family: var(--font-hankenGrotesk); */
   font-weight: 300;
   font-size: 1.5rem;
@@ -121,7 +114,7 @@
 
 
 .spacer {
-  height: 300px
+  height: 2vh
 }
  .pContainer {
   /* border: 2px dotted rgb(96, 139, 168); */
@@ -300,7 +293,7 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .nav__menu-bar{
     display: none;
   }
@@ -326,7 +319,7 @@
   .nav__link:hover:before{
    width: 100%;
   }
-}
+} */
 
 .description {
   display: inherit;

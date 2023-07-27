@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className={styles.center}>
           <Image
-            // className={styles.imageBorder}
+            className={styles.imageBorder}
             src="/images/color-closeField.jpg"
             alt=""
             width={900}
@@ -68,10 +68,39 @@ export default function Home() {
           </div>
 
         <div className={styles.spacer}></div>
-
-        <div>
-          <h2>Music</h2>
+        
+        <div  className={styles.indexBio}>
+          <div className={styles.pContainer}>
+            <p>
+              <strong>Pascucci-Clifford</strong> is an active compose and band leader, and has sizeable record catalog as a leader, co-leader, side-man, and producer.
+            </p>
+           </div>
         </div>
+        <div>
+            <Link
+              href='/music'
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 >
+              <span>-&gt;</span> Musical projects as Leader/Co-Leader
+              </h2>
+            </Link>
+          </div>
+        <div>
+            <Link
+              href='/discog'
+              className={styles.card}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 >
+              <span>-&gt;</span> Selected discography
+              </h2>
+            </Link>
+          </div>
+          
 
         <Footer/>
       </main>

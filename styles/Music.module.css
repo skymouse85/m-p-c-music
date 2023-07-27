@@ -1,0 +1,13 @@
+.musicContent {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    padding-top: 2rem;
+    text-align: left;
+    
+  }
+
+  .musicContent p {
+    font-size: 1.175rem;
+    margin: 10px 3rem 0 auto;
+    line-height: 1.275;
+  }
