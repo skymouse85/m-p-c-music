@@ -67,7 +67,7 @@ export default function Home() {
             </Link>
           </div>
 
-        <div className={styles.spacer}></div>
+        {/* <div className={styles.spacer}></div> */}
         
         <div  className={styles.indexBio}>
           <div className={styles.pContainer}>
