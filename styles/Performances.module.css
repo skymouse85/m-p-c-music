@@ -1,0 +1,17 @@
+.title {
+    font-family: 'RobotoMono', monospace;
+    font-weight: 600;
+    padding: 1.75rem;
+}
+
+.date {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
