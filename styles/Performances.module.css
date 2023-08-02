@@ -19,9 +19,13 @@
 
 .container p {
     font-weight: 400;
+    font-family: var(--font-hankenGrotesk);
     padding: 5px;
 }
 
+
+
 .h1 {
     text-align: center;
+    font-size: 5rem;
 }
