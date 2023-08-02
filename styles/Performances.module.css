@@ -6,13 +6,22 @@
 
 
 .container {
-    display: flex;
-    flex-direction: column;
+   width: 65%;
+    height: 100%;
+    padding: 10px;
+    margin:auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 2px solid var(--accent-secondary);
 }
 
 .container p {
-    font-weight: 300;
+    font-weight: 400;
     padding: 5px;
+}
+
+.h1 {
+    text-align: center;
 }

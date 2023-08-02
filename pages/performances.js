@@ -41,6 +41,7 @@ function EventList() {
              <div className={homeStyles.sm_header}>
                 <SmHeader />  
             </div>
+            <h1 className={showStyles.h1}>Upcoming Shows</h1>
                 <div>
                 {[...events].sort((a, b) => 
                     new Date(a.start?.dateTime || 0) - new Date(b.start?.dateTime || 0)
@@ -61,13 +62,17 @@ function EventList() {
                         let endTimeStr = endDate.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
 
                         return (
-                            <div className={showStyles.container}  key={event.id}>
-                                <h2 className={showStyles.title}>{event.summary}</h2>
-                                <p>{event.description}</p>
-                                <p>{event.location}</p>
-                                <p>{startDateStr} </p>
-                                <p>{startTimeStr} -  {endTimeStr} </p>
-                            </div>
+                            <>
+                                {/* <h1>Upcoming Shows</h1> */}
+                                    <div className={showStyles.container}  key={event.id}>
+                                        <h2 className={showStyles.title}>{event.summary}</h2>
+                                        <p>{startDateStr} </p>
+                                        <p>{event.location}</p>
+                                        <p>{startTimeStr} -  {endTimeStr} </p>
+                                        <p>{event.description}</p>
+                                    </div>
+                                
+                            </>
                         );
                     })}
                 </div>
