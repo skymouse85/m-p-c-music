@@ -36,7 +36,9 @@
   width: 400px;
   height: auto;
   border-radius: 1.5%;
-  float: right;
+  float: right; 
+  margin-right: 3rem;
+  margin-left: 1rem;
 }
 
 .bioText {
@@ -46,7 +48,7 @@
   font-size: 1.125rem;
   line-height: 1.78;
   overflow: auto;
-  margin: 1rem;
+  margin: 3rem;
   /* margin-top: 1rem;  */
 }
 
