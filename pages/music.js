@@ -51,7 +51,7 @@ export default function Music() {
                 <div className={musicStyles.musicContent}>
                     <div>
                         <h2><a href="https://twoaerials.bandcamp.com/album/moonphase-ep" target="_blank">Two Aerials</a></h2>
-                        <p>Two Aerials is an experimental indie band co-led by Mark and Crystal Pascucci-Clifford. Thier debut EP selftitled EP was released on May 26, 2017</p>  
+                        <p>Based in Oakland, CA, Two Aerials stands as a testament to the eclectic spirit of the Bay-Area music scene. Co-led by Mark and Crystal Pascucci-Clifford, the band intertwines elements from a rich tapestry of musical traditions, ranging from modern classical and free improvisation to art-song and electronic music. Their self-titled debut EP was released on May 26, 2017.</p>  
                     </div>
                     <div>
                         <iframe 
@@ -71,7 +71,7 @@ export default function Music() {
                 <div className={musicStyles.musicContent}>
                     <div>
                         <h2>Lost Shapes</h2>
-                        <p>Based in the heart of the Bay Area, "The Lost Shapes" stands as a dynamic ensemble of gifted composers and improvisors who have carved a niche within the contemporary jazz landscape. Established three years ago, this collective has emerged as a trailblazer in avant-garde jazz, skillfully blending structured compositions with the raw energy of improvisation. The ensemble boasts an impressive lineup: Mark Pascucci-Clifford on vibraphone, Max Miller-Loran on trumpet, Safa Shokrai on bass, Beth Schenck on alto saxophone, and Jason Levis on drums. Together, they coalesce to deliver an auditory experience that resonates deeply, placing The Lost Shapes at the vanguard of modern jazz innovation. Their debut recording is set to release in early 2024.</p>  
+                        <p>Based in the heart of the Bay Area, The Lost Shapes stands as a dynamic ensemble of gifted composers and improvisors who have carved a niche within the contemporary jazz landscape. Established three years ago, this collective has emerged as a trailblazer in avant-garde jazz, skillfully blending structured compositions with the raw energy of improvisation. The ensemble boasts an impressive lineup: Mark Pascucci-Clifford on vibraphone, Max Miller-Loran on trumpet, Safa Shokrai on bass, Beth Schenck on alto saxophone, and Jason Levis on drums. Together, they coalesce to deliver an auditory experience that resonates deeply, placing The Lost Shapes at the vanguard of modern jazz innovation. Their debut recording is set to release in early 2024.</p>  
                     </div>
                     <div>
                         <YouTubeVideo videoId="qQgwJch1ivs"/>
