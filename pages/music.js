@@ -84,18 +84,36 @@ export default function Music() {
                 <div className={musicStyles.musicContent}>
                     <div>
                         <h2>Levitator Trio</h2>
-                        <p>this is another project of mine</p>  
+                        <p>Levitator Trio is comprised of Kjell Nordeson on drums, Mark Pascucci-Clifford on vibraphone, and Safa Shokrai on bass. The ensemble emphasizes a focused approach to original compositions, melding structural integrity with improvisational depth. Drawing upon their individual expertise and collective synergy, the trio consistently delivers performances characterized by both energy and precision. Their commitment to pushing the boundaries of jazz improvisation makes the Levitator Trio a noteworthy ensemble in the modern jazz sphere.</p>  
                     </div>
-                </div>
+                    <div>
+                        <YouTubeVideo videoId="EgRUlyjNWIE"/>
+                    </div>
 
+                    
+                </div>
 
                 {/* Inner Movements */}
                 <div className={musicStyles.musicContent}>
                     <div>
-                        <h2>Inner Movements</h2>
-                        <p>this is another project of mine</p>  
+                    <h2><a href="https://www.innermovements.org/" target="_blank">Inner Movements</a></h2>
+                        <p>Inner Movements is a collective of percussionists and string players celebrating the music of the 20th, 21st centuries and newly commissioned works. Realizing works of open instrumentation, Inner Movements aims to explores the sonorities expose by the combination of strings and percussion. The aleatoric nature of percussion overtones combined with complex string instrument resonance supports ambiguity, reinforcement, and envelop contrast.<br></br><br></br>
+                        The juxtaposition of decaying sound sources combined with swelling tones creates a melding timbre of idiosyncratic instrumentation. Realizing scores for open instrumentation has created a landscape for our ensemble to explore these timbres. Working with living composers is a mission of the group. Collaboration with composers interested in creating music for percussion and strings, and seeing that music come to live, fulfills a goal of creation, realization and production.<br></br><br></br>
+                        Crystal Pascucci (cello) and Mark Clifford (vibraphone) are the two core members of this group. There is a changing cast of players, based on instrumentation of specific pieces.
+                        </p>  
                     </div>
+                    <iframe 
+                        width="100%" 
+                        height="166" 
+                        scrolling="no" 
+                        frameBorder="no" 
+                        allow="autoplay" 
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/255148575&color=%23ff5252&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                    </iframe>
+                    <a href="https://soundcloud.com/twoaerials/tranverse-process"></a>
+                
                 </div>
+
              
            </main>
             <Footer/>
