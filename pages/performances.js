@@ -18,7 +18,7 @@ function EventList() {
         let startDay = startDate.toISOString().split('T')[0];
         let endDay = endDate.toISOString().split('T')[0];
 
-        fetch(`http://localhost:8080/events/${startDay}/${endDay}`) // Use startDay and endDay in the URL
+        fetch(`https://app-n7mlmljuba-uc.a.run.app/events/${startDay}/${endDay}`) // Use startDay and endDay in the URL
             .then(response => response.json())
             .then(data => {
                 if(data.error) {
