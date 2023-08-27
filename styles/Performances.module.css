@@ -5,6 +5,7 @@
 }
 
 
+
 .container {
    width: 65%;
     height: 100%;
@@ -18,8 +19,8 @@
 }
 
 .container p {
-    font-weight: 400;
-    font-family: var(--font-hankenGrotesk);
+    font-weight: 300;
+    font-family: 'interTight', sans-serif;
     padding: 5px;
 }
 
