@@ -1,0 +1,64 @@
+/* Navbar container style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    /* position: fixed  ; */
+    font-family: 'Roboto Mono', monospace ;
+  }
+  
+
+/* Menu container style */
+.menus {
+    list-style-type: none; /* Removes default list styling */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Keeps the menu contained within the navbar */
+    display: flex; /* Aligns menu items in a row */
+    justify-content: space-between; /*Center-align the menu items */
+    width: 100%;
+}
+
+.menus li {
+    list-style-type: none;  /* Removes bullet points from li */
+    margin: 0;              /* Resets any global margin */
+    padding: 0;             /* Resets any global padding */
+    display: inline-block;  /* Ensures li elements are in line */
+    flex: 1;                /* Distributes space evenly */
+    text-align: center;     /* Centers the text inside the li */
+}
+
+
+/* Menu item style */
+.menuItem {
+    /* float: left; For inline display of menu items */
+    flex: 1;
+    text-align: center;
+    display: block;
+
+}
+
+.menuLink {
+    display: block;         /* Full area clickable */
+    color: white;           /* Text color */
+    padding: 14px 16px;     /* Adequate padding for clickable area */
+    text-decoration: none;  /* No underline */
+}
+
+
+/* Hover effects for menu items */
+.menuLink:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+/* Responsive styling, optional */
+/* @media screen and (max-width: 600px) {
+    .menus {
+        flex-direction: column; /* Stack the menu vertically on smaller screens */
+    
+ 

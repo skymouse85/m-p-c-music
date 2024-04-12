@@ -36,7 +36,7 @@ export default function Header() {
                 <li>
                     <Link href='/performances'>shows</Link>
                     </li>
-                <li>projects</li>
+                <li>contact</li>
                 <li>contact</li>
             </ul>
     

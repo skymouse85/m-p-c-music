@@ -20,10 +20,14 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon"type="image/ico" href="/blackVibes.ico" />
       </Head>
-          <div >
+          
            <Header/>
-          </div>
+          {/* <Navbar/> */}
+          
       <main className={`${styles.main} ${hankenGrotesk.className}`}>
+
+        
+        
          
 
         <div className={styles.center}>
@@ -36,7 +40,7 @@ export default function Home() {
           />
         </div>
 
-        {/* <div >
+         {/* <div >
             <Link className={styles.nav} href="/bio">bio</Link>
         </div>
         <div >
@@ -44,7 +48,7 @@ export default function Home() {
         </div>
         <div>
             <Link className={styles.nav} href="/performances">shows</Link>
-        </div> */}
+        </div>  */}
           
 
         <div  className={styles.indexBio}>

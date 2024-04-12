@@ -1,11 +1,11 @@
 import Dropdown from "./Dropdown";
-import styles from "@/styles/Home.module.css"
+import styles from "@/styles/Nav.module.css"
 import { useState } from "react";
 
 export default function MenuItems({items}) {
     const [dropdown, setDropdown] = useState(false);
     return (
-        <li className={styles.menu_items}>
+        <li className={styles.menuItem}>
              {items.submenu ? (
             <>
              <button 

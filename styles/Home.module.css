@@ -190,19 +190,6 @@
   border-radius: 5px;
 }
 
-
-/** Nav styles  */
-
-
-.nav-area {
-  display: flex;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 20px;
-}
-
-
 /* * Menu Item styles */
 
 
@@ -234,13 +221,13 @@
   background-color: transparent;
   cursor: pointer;
   width: 100%;
-}
+} 
 
 .button span {
   margin-left: 3px;
 }
 
-.menu_items > a, .menu_items button {
+ .menu_items > a, .menu_items button {
   text-align: left;
   padding: 0.7rem 1rem;
 }
@@ -248,7 +235,7 @@
 .menu_items a:hover,
 .menu_items button:hover {
   background-color: #f2f2f2;
-}
+} 
 
 .arrow::after {
   content: "";
